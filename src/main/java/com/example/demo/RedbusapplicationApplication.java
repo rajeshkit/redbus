@@ -23,5 +23,13 @@ public class RedbusapplicationApplication {
 	public String getProduct() {
 		return "product TV";
 	}
+	@GetMapping("/payment")
+	public String payment() {
+		return "product TV";
+	}
+	@GetMapping("/rewards")
+	public String reward() {
+		return "product TV";
+	}
 
 }
