@@ -25,11 +25,11 @@ public class RedbusapplicationApplication {
 	}
 	@GetMapping("/payment")
 	public String payment() {
-		return "product TV";
+		return "bank payment done";
 	}
 	@GetMapping("/rewards")
 	public String reward() {
-		return "product TV";
+		return "rewards awarded";
 	}
 
 }
